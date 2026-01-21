@@ -1,8 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import { userEvent, within } from "@storybook/test";
-import HealthTracker from "./HealthTracker";
+import HealthTracker from "../pages/HealthTracker";
 
 const meta: Meta<typeof HealthTracker> = {
   title: "Pages/HealthTracker",
@@ -17,7 +16,7 @@ const meta: Meta<typeof HealthTracker> = {
       </MemoryRouter>
     ),
   ],
-};
+};  
 
 export default meta;
 type Story = StoryObj<typeof HealthTracker>;

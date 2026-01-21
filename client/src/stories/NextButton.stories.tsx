@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import NextButton from "./NextButton";
+import NextButton from "../components/ui/NextButton";
 
 const meta: Meta<typeof NextButton> = {
   title: "UI/NextButton",
