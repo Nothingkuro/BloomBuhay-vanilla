@@ -3,7 +3,7 @@ import { MemoryRouter } from "react-router-dom";
 import NextButton from "../components/ui/NextButton";
 
 const meta: Meta<typeof NextButton> = {
-  title: "UI/NextButton",
+  title: "Components/NextButton",
   component: NextButton,
   parameters: {
     layout: "centered",
